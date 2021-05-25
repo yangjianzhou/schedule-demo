@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-schedule" />
+        <module name="elastic-job" />
+        <module name="quartz" />
+        <module name="sia-task-hunter" />
+        <module name="jdk-timer" />
+        <module name="xxl-job" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sia-task-hunter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jdk-timer" options="" />
+      <module name="schedule-demo" options="-parameters" />
+      <module name="sia-task-hunter" options="" />
+      <module name="spring-schedule" options="" />
+    </option>
+  </component>
+</project>
